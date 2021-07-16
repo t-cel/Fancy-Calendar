@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg">
+        <div id="add_event_form">
+            <button class="close_btn">X</button>
+            <h2>Content Of Event:</h2>
+            <textarea id="event_textarea"></textarea>
+            <br>
+            <div id="characters_left_text">128 characters left</div>
+            <br>
+            <span id="content_error"><b>You must write some content first.</b></span> 
+            <button class="add_event_ok_btn">OK</button>
+        </div>
+    </div>
+    <div id="view_buttons">
+        <button class="change_view_btn days">Show Days</button>
+        <button class="change_view_btn years">Show Years</button>
+        <button class="change_view_btn months">Show Months</button>
+        <div id="move_view_btns_panel">           
+            <button class="move_view_btn prev"><</button>
+            <span id="view_header"> June, 2021 </span>
+            <button class="move_view_btn next">></button>
+        </div>
+    </div>
+    <table>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
